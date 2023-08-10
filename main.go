@@ -56,7 +56,7 @@ func main() {
 	viaCepChannel := make(chan CepResponse)
 	apicepChannel := make(chan CepResponse)
 
-	cep := "14403720"
+	cep := "72855-196"
 
 	viacepUrl := fmt.Sprintf("http://viacep.com.br/ws/%s/json/", cep)
 	apicepUrl := fmt.Sprintf("https://cdn.apicep.com/file/apicep/%s.json", cep)
